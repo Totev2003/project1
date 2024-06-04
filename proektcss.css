@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD700; /* Жълт цвят */
+}
+
+.navbar {
+    margin-bottom: 20%;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: #FFD700; /* Жълт цвят */
+    color: #000; /* Черен текст за по-добър контраст */
+    margin-bottom: 20px;
+    padding: 40px 20px; /* Добавяне на допълнителна вътрешна рамка */
+    text-align: center; /* Центриране на текста в банера */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}

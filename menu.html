@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню за деня - Ресторант за бързо хранене "Гнездото"</title>
+    <link rel="stylesheet" href="css/proektcss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Центриране на заглавието */
+        title {
+            text-align: center;
+        }
+
+        /* Задаване на еднаква ширина за всички таблици */
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Определяне на еднаква ширина за всички колони */
+        .menu-table td:nth-child(1) {
+            width: 20%;
+        }
+        .menu-table td:nth-child(2) {
+            width: 40%;
+        }
+        .menu-table td:nth-child(3) {
+            width: 20%;
+        }
+        .menu-table td:nth-child(4) {
+            width: 20%;
+        }
+
+        img {
+            max-width: 70%;
+            height: auto;
+        }
+
+        /* Нови стилове за центриране */
+        .menu-header, .menu-subheader {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mx-auto" href="index.html">Ресторант за бързо хранене "Гнездото"</a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Начало</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Меню за деня</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">За нас</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Контакти и поръчки</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="daily-menu" class="container">
+        <h2 class="menu-header">Меню за деня</h2>
+        <p class="menu-subheader">Вижте какво предлагаме днес</p>
+        <h3>Супи</h3>
+        <table class="menu-table">
+            <tr>
+                <td><img src="img1.jpg" alt="img1"></td>
+                <td>ПИЛЕШКА СУПА</td>
+                <td>400 гр</td>
+                <td>3.90 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img5.jpg" alt="img5"></td>
+                <td>КАРТОФЕНА КРЕМ СУПА + КРУТОНИ</td>
+                <td>400 гр</td>
+                <td>3.90 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img14.jpg" alt="img14"></td>
+                <td>ТАРАТОР</td>
+                <td>400 гр</td>
+                <td>3.90 лв.</td>
+            </tr>
+        </table>
+        <h3>Основни ястия</h3>
+        <table class="menu-table">
+            <tr>
+                <td><img src="img7.jpg" alt="img7"></td>
+                <td>БОБ-ЯХНИЯ</td>
+                <td>400 гр</td>
+                <td>4.20 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img8.jpg" alt="img8"></td>
+                <td>МИШ-МАШ</td>
+                <td>350 гр</td>
+                <td>5.90 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img9.jpg" alt="img9"></td>
+                <td>ПИЛЕ-ЛЮТИКА</td>
+                <td>400 гр</td>
+                <td>5.60 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img16.jpg" alt="img16"></td>
+                <td>ПИЛЕШКО БУТЧЕ С БЕЛИ КАРТОФИ</td>
+                <td>400 гр</td>
+                <td>5.70 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img17.jpg" alt="img17"></td>
+                <td>ПЪЛНЕНИ ЧУШКИ С КАЙМА</td>
+                <td>400 гр</td>
+                <td>6.50 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img18.jpg" alt="img18"></td>
+                <td>КАТИНО МЕЗЕ С ГАРНИТУРА ПЪРЖЕНИ КАРТОФИ</td>
+                <td>350 гр</td>
+                <td>6.90 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img19.jpg" alt="img19"></td>
+                <td>КЮФТЕТА ПО ЧИРПАНСКИ</td>
+                <td>350 гр</td>
+                <td>6.10 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img20.jpg" alt="img20"></td>
+                <td>СВИНСКО СЪС ЗЕЛЕ</td>
+                <td>400 гр</td>
+                <td>6.60 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img21.jpg" alt="img21"></td>
+                <td>ПИЛЕШКО ФИЛЕ ПАНЕ С ГАРНИТУРА</td>
+                <td>350 гр</td>
+                <td>6.70 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img22.jpg" alt="img22"></td>
+                <td>КАШКАВАЛ ПАНЕ С ГАРНИТУРА</td>
+                <td>250 гр</td>
+                <td>7.10 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img23.jpg" alt="img23"></td>
+                <td>ДОМАШНО ПЪРЖЕНО КЮФТЕ</td>
+                <td>80 гр</td>
+                <td>2.20 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img24.jpg" alt="img24"></td>
+                <td>ОМЛЕТ СЪС СИРЕНЕ И КАШКАВАЛ И ГАРНИТУРА</td>
+                <td>350 гр</td>
+                <td>6.70 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img25.jpg" alt="img25"></td>
+                <td>БЯЛО ИЛИ ГРАХАМОВО ХЛЕБЧЕ</td>
+                <td>1 бр</td>
+                <td>0.80 лв.</td>
+            </tr>
+        </table>
+        <h3>Гарнитури</h3>
+        <table class="menu-table">
+            <tr>
+                <td><img src="img10.jpg" alt="img10"></td>
+                <td>ДОМАТИ И КРАСТАВИЦИ</td>
+                <td>150 гр</td>
+                <td>2.00 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img12.jpg" alt="img12"></td>
+                <td>ВАРЕНИ КАРТОФИ С ЛУК</td>
+                <td>150 гр</td>
+                <td>1.80 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img11.jpg" alt="img11"></td>
+                <td>ЗЕЛЕ С МОРКОВи</td>
+                <td>100 гр</td>
+                <td>1.50 лв.</td>
+            </tr>
+            <tr>
+                <td><img src="img26.jpg" alt="img26"></td>
+                <td>ПУКАНИ ЧУШЛЕТА С ОЦЕТ И ЧЕСЪН</td>
+                <td>1 бр</td>
+                <td>0.20 лв.</td>
+            </tr>
+        </table>
+        <h3>Десерти</h3>
+        <table class="menu-table">
+            <tr>
+                <td><img src="img13.jpg" alt="img13"></td>
+                <td>ДОМАШНА БИСКВИТЕНА ТОРТА</td>
+                <td>150 гр</td>
+                <td>2.90 лв.</td>
+            </tr>
+        </table>
+    </section>
+    <footer class="text-center">
+        <p>&copy; 2024 Ресторант за бързо хранене "Гнездото". Всички права запазени.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
